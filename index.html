@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Managent</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home / </a>
+                <a class="nav-link" href="#">User / </a>
+                <a class="nav-link" href="#">User Profile</a>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-3">
+                <div class="profile">
+                    <div class="card ">
+                        <div class="card-body text-center">
+                            <img src="profile.jpeg" class="card-img rounded-circle " alt="profile">
+                            <h5 class="card-title">Meryem Yaka</h5>
+                            <p class="card-text">Çanakkale, Türkiye</p>
+                            <a href="#" class="btn btn-primary">Follow</a>
+                            <a href="#" class="btn border-primary text-primary">Message</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social ">
+                    <div class="card mt-3 p-3  ">
+                        <p> <i class="bi bi-globe2"></i> Website</p>
+                        <p> <i class="bi bi-github"></i> Github <span class="text-secondary ">meryem</span></p>
+                        <p> <i class="bi bi-twitter-x"></i> Twitter <span class="text-secondary">meryem</span> </p>
+                        <p> <i class="bi bi-instagram"></i> İnstagram <span class="text-secondary">meryem</span> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div class="info bg-white p-3">
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-3">
+                                <label for="fullname" class="form-label">Full Name</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="name" class="form-control" id="fullname" value="Meryem">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-3">
+                                <label for="email" class="form-label">Email</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="email" class="form-control" id="email" value="meryem@gmail.com">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-3">
+                                <label for="phone" class="form-label">Phone</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="phone" value="(5xx) - xxx - xxxx">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-3">
+                                <label for="adress" class="form-label">Adress</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="adress" value="Çanakkale, Türkiye">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="bg-white mt-3 mb-3 ">
+                    <h6 class=" ms-3 mt-3"> <span class="text-primary">assignment</span> Project Status</h6>
+                    <ul class="list-group ">
+                        <li class="list-group-item ">Web Design
+                            <div class="progress" role="progressbar" 
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar" style="width: 75%">
+                                </div>
+                            </div>
+                        </li>
+                    
+                        <li class="list-group-item">Website Markup
+                            <div class="progress" role="progressbar" 
+                                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar" style="width: 65%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">One Page
+                            <div class="progress" role="progressbar" 
+                                aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar" style="width: 45%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">Mobile Template
+                            <div class="progress" role="progressbar" 
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar" style="width: 80%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">Backend API
+                            <div class="progress" role="progressbar" 
+                                aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar" style="width: 82%">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
